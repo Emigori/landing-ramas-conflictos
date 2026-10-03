@@ -7,19 +7,19 @@
 body {
   margin: 20px;
   font-family: Arial, sans-serif;
-  color: #333;
-  background-color: #ffffff;
+  color: #1f2340;
+  background: linear-gradient(180deg, #f5f3ff 0%, #ffffff 60%);
   line-height: 1.6;
 }
 
 h1 {
   font-size: 2rem;
-  color: #222;
+  color: #4b2bd6;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: #444;
+  color: #2a1a7a;
 }
 
 section, main, footer {

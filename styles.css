@@ -13,8 +13,9 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #222;
+  line-height: 1.15;
 }
 
 h2 {
@@ -25,4 +26,26 @@ h2 {
 section, main, footer {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+/* ===== SECCION PRINCIPAL ===== */
+
+.hero {
+  text-align: center;
+  padding: 96px 8%;
+}
+
+.hero p {
+  max-width: 620px;
+  margin: 16px auto 32px;
+  font-size: 1.15rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #1f2340;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
 }

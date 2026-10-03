@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 20px;
+  margin: 0;
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #ffffff;
@@ -25,4 +25,46 @@ h2 {
 section, main, footer {
   padding: 20px;
   margin-bottom: 20px;
+}
+
+/* ===== ENCABEZADO Y NAVBAR ===== */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e3f5;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1f2340;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #4b2bd6;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: #1f2340;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #4b2bd6;
 }

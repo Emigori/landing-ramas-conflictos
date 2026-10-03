@@ -1,1 +1,28 @@
-/* Estilos de la landing page */
+/* ===== ESTILOS BASE ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #444;
+}
+
+section, main, footer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
